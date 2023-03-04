@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../WEB-22/media.css">
+</head>
+<body>
+<form>
+    <div class="form_week">
+        <p>Выберите тип недели</p>
+        <p><label>
+            <input type="radio" name="p" value="5">
+        </label> 5ти дневная неделя</p>
+        <p><label>
+            <input type="radio" name="p" value="6">
+        </label> 6ти дневная неделя</p>
+    </div>
+</form>
+<div class="form_maxLessons">
+    <p> Введите максимальное кол-во занятий <label>
+        <input type="text" placeholder="Например, 4">
+    </label></p>
+</div>
+<form>
+    <div class="form_language">
+        <p>Выберите язык для создания таблицы</p>
+        <p><label>
+            <input type="radio" name="p" value="rus">
+        </label> Rus</p>
+        <p><label>
+            <input type="radio" name="p" value="eng">
+        </label> Eng</p>
+    </div>
+    <button type="button" id="form_create">Создать</button>
+    <button type="button" id="form_delete">Удалить</button>
+    <button type="button" id="form_save">Сохранить</button>
+    <div class="errorText"></div>
+</form>
+<section>
+    <div class="table">
+
+    </div>
+</section>
+</body>
+<script src="script/form.js" type="module"></script>
+</html>
